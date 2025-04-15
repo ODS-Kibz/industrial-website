@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Afriron Mabati Co. Ltd</title>
+          <link rel="stylesheet" href="/public/styles.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+          <header>
+                    <nav>
+                              <div class="logo">Afriron Mabati Co. Ltd</div>
+                              <ul>
+                                        <li><a href="#home">Home</a></li>
+                                        <li><a href="#services">Services</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                              </ul>
+                    </nav>
+          </header>
+
+          <section id="home" class="hero">
+                    <h1>Premium Quality Iron Sheets</h1>
+                    <p>Durable, Affordable, and Trusted by Industry Leaders</p>
+                    <a href="#contact" class="btn">Request a Quote</a>
+          </section>
+
+          <section id="services">
+                    <h2>Our Products</h2>
+                    <div class="service-container">
+                              <div class="service">Corrugated Iron Sheets</div>
+                              <div class="service">Box Profile Sheets</div>
+                              <div class="service">Polycarbonate Roofing Sheets</div>
+                    </div>
+          </section>
+
+          <section id="about" class="about-section">
+           <div class="container text-center">
+                    <h2>Why Choose Afriron Mabati?</h2>
+                    <p>We provide high-quality, affordable, and long-lasting iron sheets tailored to your needs.</p>
+          </section>
+
+          <section id="contact">
+                    <h2>Contact Us</h2>
+                    <form id="quoteForm"> <!-- ✅ Added ID -->
+                              <input type="text" id="name" placeholder="Your Name" required>
+                              <input type="email" id="email" placeholder="Your Email" required>
+                              <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                              <textarea id="message" placeholder="Your Message" required></textarea>
+                              <button type="submit">Request a Quote</button>
+                    </form>
+          </section>
+
+          </section>
+
+          <footer>
+                    <p>&copy; 2025 Afriron Mabati Co. Ltd. All rights reserved.</p>
+          </footer>
+
+    
+
+          <div id="successModal" class="modal">
+                    <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <h2>✅ Quote Request Sent!</h2>
+                              <p>We'll get back to you soon.</p>
+                    </div>
+          </div>
+          
+          <script src="/public/script.js"></script>
+</body>
+
+</html>

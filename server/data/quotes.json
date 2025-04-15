@@ -1,0 +1,32 @@
+{
+  "quotes": [
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890",
+      "message": "I need a quote for iron sheets.",
+      "date": "2025-03-29T13:02:27.290Z"
+    },
+    {
+      "name": "Kenneth's bank",
+      "email": "kennethkibuku@gmail.com",
+      "phone": "+254704647006",
+      "message": "I want a quote for box profile iron sheets",
+      "date": "2025-03-29T14:06:43.957Z"
+    },
+    {
+      "name": "Kenneth's bank",
+      "email": "kennethkibuku@gmail.com",
+      "phone": "+254704647006",
+      "message": "JJJJJJJJJJJJJJJJJJJJJJJJ",
+      "date": "2025-03-29T14:07:45.169Z"
+    },
+    {
+      "name": "Kenneth's bank",
+      "email": "kennethkibuku@gmail.com",
+      "phone": "+254704647006",
+      "message": "I want a quote",
+      "date": "2025-03-29T14:09:39.791Z"
+    }
+  ]
+}
