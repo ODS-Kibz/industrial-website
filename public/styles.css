@@ -123,6 +123,38 @@ nav ul li a:hover::after {
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+#services {
+   margin-top: 50px;
+   text-align: center;
+}
+
+.service-container {
+   display: flex;
+   justify-content: center;
+   gap: 30px;                /* Space between services */
+   flex-wrap: wrap;
+   /* Allows the images to wrap on smaller screens */
+}
+
+.service {
+   width: 250px;
+   text-align: center;
+}
+
+.service img {
+   width: 100%;
+   /* Makes the image responsive */
+   max-width: 100%;
+   /* Ensures images do not overflow */
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+   margin-bottom: 10px;
+   font-size: 1.2rem;
+}
+
 /* About Section */
 #about {
           display: flex;
@@ -203,6 +235,7 @@ footer {
 .modal-content {
           position: relative;
 }
+
 
 
 /* Animations */
