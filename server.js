@@ -53,12 +53,13 @@ app.use(bodyParser.json());
 // Serve static files (HTML, CSS, JS) from the "public" folder
 // This means when user visits "/", they'll get index.html from this folder
 // Serve static files from the 'public' folder
-app.use(express.static('public'));
+app.use('/public', express.static(path.join(__dirname, 'public')));     // Serve static files from the "public" directory
+
 // Serve static files (CSS, JS, images, etc.) from the "public" directory
 
 // Serve the index.html file when the root URL is accessed
 app.get('/', (req, res) => {
- res.sendFile(path.join(__dirname, '..', 'index.html'));
+ res.sendFile(path.join(__dirname,'index.html'));
 });
 
 

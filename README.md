@@ -52,6 +52,3 @@ Open your browser at:
 🌍 Live Site
 👉 Visit the live website here
 (URL will be added once deployment on Render is complete.)
-
-
-E:\Kenneth\Web Development\Industrial Website\server
